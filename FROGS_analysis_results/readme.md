@@ -31,3 +31,129 @@ conda activate metabar_analysis
 python RPOB_paper/FROGS_analysis_results/scripts/plot_taxo_ranks.py -h
 
 ```
+
+#  FROGS process and post-processes:
+
+## Mock: V3V4 amplicon form 16S rRNA gene
+
+### FROGS process
+
+```bash
+CURRENT=Mock_16S
+mkdir Results/$CURRENT
+RES_DIR=Results/$CURRENT
+mkdir Logs/$CURRENT
+LOG_DIR=Logs/$CURRENT
+SEQ_DIR=Rawdata
+
+
+#preprocess #01
+preprocess.py illumina --input-archive $SEQ_DIR/$CURRENT.tar.gz --R1-size 300 --R2-size 300 --merge-software vsearch --min-amplicon-size 300 --max-amplicon-size 590 --five-prim-primer ACGGRAGGCAGCAG --three-prim-primer AGGATTAGATACCCTGGTA  --nb-cpus 8 --output-dereplicated $RES_DIR/01-preprocess.fa --output-count $RES_DIR/01-preprocess.count.tsv --summary $RES_DIR/01-preprocess.html --log-file $LOG_DIR/01-preprocess.log
+#clustering #02
+clustering.py --nb-cpus 8 -d 1 --fastidious --input-fasta $RES_DIR/01-preprocess.fa --input-count $RES_DIR/01-preprocess.count.tsv --output-biom $RES_DIR/02-clustering.biom --output-fasta $RES_DIR/02-clustering.fasta  --output-compo $RES_DIR/02-clustering_compo.tsv --log-file $LOG_DIR/02-clustering.log
+#clusterstat
+cluster_stats.py --input-biom $RES_DIR/02-clustering.biom -o $RES_DIR/02-clustering_cluster_stat.html --log-file $LOG_DIR/02-clustering_cluster_stat.log
+#remove chimera #03
+remove_chimera.py --nb-cpus 8 --input-fasta $RES_DIR/02-clustering.fasta --input-biom $RES_DIR/02-clustering.biom --non-chimera $RES_DIR/03-non_chimera.fasta --out-abundance $RES_DIR/03-non_chimera.biom --summary $RES_DIR/03-remove_chimera.html --log-file $LOG_DIR/03-remove_chimera.log
+cluster_stats.py --input-biom $RES_DIR/03-non_chimera.biom -o $RES_DIR/03-non_chimera_cluster_stat.html --log-file $LOG_DIR/03-non_chimera_cluster_stat.log
+#cluster filters #04
+PHIX=/save/user/frogs/galaxy_databanks/phiX_genome/phi.fa
+cluster_filters.py --nb-cpus 16 --min-abundance 0.00005 --input-biom $RES_DIR/03-non_chimera.biom --input-fasta $RES_DIR/03-non_chimera.fasta --contaminant $PHIX --output-biom $RES_DIR/04-filters.biom --output-fasta $RES_DIR/04-filters.fasta --summary $RES_DIR/04-filters.html --excluded $RES_DIR/04-filters_excluded.tsv --log-file $LOG_DIR/04-filters.log
+cluster_stats.py --input-biom $RES_DIR/04-filters.biom -o $RES_DIR/04-filters_cluster_stat.html --log-file $LOG_DIR/04-filters_cluster_stat.log
+#affiliation #05
+DATABQ=/save/user/frogs/galaxy_databanks/SILVA/16S/silva_138.1_16S/silva_138.1_16S.fasta
+taxonomic_affiliation.py --nb-cpus 16 -m 240 --rdp --reference $DATABQ --input-biom $RES_DIR/04-filters.biom --input-fasta $RES_DIR/04-filters.fasta --output-biom $RES_DIR/05-affiliation.biom --summary $RES_DIR/05-affiliation.html --log-file $LOG_DIR/05-affiliation.log
+affiliation_stats.py --rarefaction-ranks Class Order Family Genus Species --multiple-tag blast_affiliations --tax-consensus-tag blast_taxonomy --identity-tag perc_identity --coverage-tag perc_query_coverage -i $RES_DIR/05-affiliation.biom --output-file $RES_DIR/05-affiliation_stat.html --log-file $LOG_DIR/05-affiliation_stat.log
+#to TSV 
+biom_to_tsv.py --input-biom $RES_DIR/05-affiliation.biom --input-fasta $RES_DIR/04-filters.fasta --output-tsv $RES_DIR/05-affiliation.tsv --output-multi-affi $RES_DIR/05-affiliation.multihit.tsv --log-file $LOG_DIR/05-affiliation.biom_to_tsv.log
+
+```
+
+
+### post-process
+
+```bash
+ANALYSIS=Mock
+OBJECT=16S
+DATA=/home/gpascal/work/RPOB/DATA
+RESULT=/home/gpascal/work/RPOB/RESULTS97perc
+RESULTSFROGS=/home/gpascal/work/RPOB/FROGS/Results/${ANALYSIS}_${OBJECT}
+
+DBNAME=silva
+FROGSAFFI=$RESULTSFROGS/05-affiliation.tsv
+FROGSMULTIAFFI=$RESULTSFROGS/05-affiliation.multihit.tsv
+AFFI=$DATA/${ANALYSIS}_${OBJECT}_05-affiliation.tsv
+MULTIAFFI=$DATA/${ANALYSIS}_${OBJECT}_05-affiliation.multihit.tsv
+
+python add_multiaffi_to_abd_table-97-80.py --abundance_table $AFFI --multiaffi_table $MULTIAFFI --taxonomic_ranks 'Domain Phylum Class Order Family Genus Species' --region $OBJECT --affi_db_name $DBNAME -o $RESULT/${ANALYSIS}_${OBJECT}_affi_tables_merged.tsv
+python plot_taxo_ranks.py --affi_tables $RESULT/${ANALYSIS}_${OBJECT}_affi_tables_merged.tsv \
+		-s 16S_Mock5M_rep1 16S_Mock5M_rep2 16S_MockLog_rep1 16S_Mockstd_rep1 16S_Mockstd_rep2 16S_Mockstd_rep3 \
+		-o $RESULT -f png --outformat png
+mv $RESULT/taxonomic_ranks_per_target_and_per_sample.png $RESULT/${ANALYSIS}_${OBJECT}_taxonomic_ranks_per_target_and_per_sample.png 
+mv $RESULT/taxonomic_ranks_per_target.png $RESULT/${ANALYSIS}_${OBJECT}_taxonomic_ranks_per_target.png 
+mv $RESULT/taxonomic_ranks_per_target_and_per_sample_taxo_ranks_.tsv $RESULT/${ANALYSIS}_${OBJECT}_taxonomic_ranks_per_target_and_per_sample_taxo_ranks.tsv 
+
+```
+
+
+
+
+## Mock: rpoB amplicon
+### FROGS process
+```bash
+CURRENT2=Mock_rpoB
+mkdir Results/$CURRENT2
+RES_DIR2=Results/$CURRENT2
+mkdir Logs/$CURRENT2
+LOG_DIR2=Logs/$CURRENT2
+SEQ_DIR2=Rawdata
+
+#preprocess #01
+preprocess.py illumina --input-archive $SEQ_DIR2/$CURRENT2.tar.gz --R1-size 300 --R2-size 300 --merge-software vsearch --min-amplicon-size 300 --max-amplicon-size 590 --five-prim-primer GGYTWYGAAGTNCGHGACGTDCA --three-prim-primer  TKATGGGYKCVAACATGCARCGTCA --nb-cpus 8 --output-dereplicated $RES_DIR2/01-preprocess.fa --output-count $RES_DIR2/01-preprocess.count.tsv --summary $RES_DIR2/01-preprocess.html --log-file $LOG_DIR2/01-preprocess.log
+#clustering #02
+clustering.py --nb-cpus 8 -d 1 --fastidious --input-fasta $RES_DIR2/01-preprocess.fa --input-count $RES_DIR2/01-preprocess.count.tsv --output-biom $RES_DIR2/02-clustering.biom --output-fasta $RES_DIR2/02-clustering.fasta  --output-compo $RES_DIR2/02-clustering_compo.tsv --log-file $LOG_DIR2/02-clustering.log
+#clusterstat
+="cluster_stats.py --input-biom $RES_DIR2/02-clustering.biom -o $RES_DIR2/02-clustering_cluster_stat.html --log-file $LOG_DIR2/02-clustering_cluster_stat.log
+#remove chimera #03
+remove_chimera.py --nb-cpus 8 --input-fasta $RES_DIR2/02-clustering.fasta --input-biom $RES_DIR2/02-clustering.biom --non-chimera $RES_DIR2/03-non_chimera.fasta --out-abundance $RES_DIR2/03-non_chimera.biom --summary $RES_DIR2/03-remove_chimera.html --log-file $LOG_DIR2/03-remove_chimera.log
+cluster_stats.py --input-biom $RES_DIR2/03-non_chimera.biom -o $RES_DIR2/03-non_chimera_cluster_stat.html --log-file $LOG_DIR2/03-non_chimera_cluster_stat.log
+#cluster filters #04
+PHIX=/save/user/frogs/galaxy_databanks/phiX_genome/phi.fa
+cluster_filters.py --nb-cpus 16 --min-abundance 0.00005 --input-biom $RES_DIR2/03-non_chimera.biom --input-fasta $RES_DIR2/03-non_chimera.fasta --contaminant $PHIX --output-biom $RES_DIR2/04-filters.biom --output-fasta $RES_DIR2/04-filters.fasta --summary $RES_DIR2/04-filters.html --excluded $RES_DIR2/04-filters_excluded.tsv --log-file $LOG_DIR2/04-filters.log
+cluster_stats.py --input-biom $RES_DIR2/04-filters.biom -o $RES_DIR2/04-filters_cluster_stat.html --log-file $LOG_DIR2/04-filters_cluster_stat.log
+#affiliation #05
+DATABQB=/work/user/gagoutin/base_données/rpoB_bacteria_NCBI_refseq_genome_complete_and_chromosome_20240707/rpoB_bacteria_NCBI_refseq_genome_complete_and_chromosome_20240707.fasta
+taxonomic_affiliation.py --nb-cpus 16 -m 240 --rdp --reference $DATABQB --input-biom $RES_DIR2/04-filters.biom --input-fasta $RES_DIR2/04-filters.fasta --output-biom $RES_DIR2/05-affiliation.biom --summary $RES_DIR2/05-affiliation.html --log-file $LOG_DIR2/05-affiliation.log
+affiliation_stats.py --rarefaction-ranks Class Order Family Genus Species --multiple-tag blast_affiliations --tax-consensus-tag blast_taxonomy --identity-tag perc_identity --coverage-tag perc_query_coverage -i $RES_DIR2/05-affiliation.biom --output-file $RES_DIR2/05-affiliation_stat.html --log-file $LOG_DIR2/05-affiliation_stat.log
+#to TSV
+biom_to_tsv.py --input-biom $RES_DIR2/05-affiliation.biom --input-fasta $RES_DIR2/04-filters.fasta --output-tsv $RES_DIR2/05-affiliation.tsv --output-multi-affi $RES_DIR2/05-affiliation.multihit.tsv --log-file $LOG_DIR2/05-affiliation.biom_to_tsv.log
+
+```
+
+
+### post-process
+
+```bash
+ANALYSIS=Mock
+OBJECT=rpoB
+DATA=/home/gpascal/work/RPOB/DATA
+RESULT=/home/gpascal/work/RPOB/RESULTS97perc
+RESULTSFROGS=/home/gpascal/work/RPOB/FROGS/Results/${ANALYSIS}_${OBJECT}
+
+DBNAME=bact-chr-genomes
+FROGSAFFI=$RESULTSFROGS/05-affiliation.tsv
+FROGSMULTIAFFI=$RESULTSFROGS/05-affiliation.multihit.tsv
+AFFI=$DATA/${ANALYSIS}_${OBJECT}_05-affiliation.tsv
+MULTIAFFI=$DATA/${ANALYSIS}_${OBJECT}_05-affiliation.multihit.tsv
+
+
+
+python add_multiaffi_to_abd_table-97-80.py --abundance_table $AFFI --multiaffi_table $MULTIAFFI --taxonomic_ranks 'Domain Phylum Class Order Family Genus Species' --region $OBJECT --affi_db_name $DBNAME -o $RESULT/${ANALYSIS}_${OBJECT}_affi_tables_merged.tsv
+python plot_taxo_ranks.py --affi_tables $RESULT/${ANALYSIS}_${OBJECT}_affi_tables_merged.tsv \
+		-s D_rpoB_Mock1 D_rpoB_Mock2 D_rpoB_Mock3 D_rpoB_Mock4 D_rpoB_Mock5M_rep1 D_rpoB_Mock5M_rep2 D_rpoB_Mock5 D_rpoB_MockLog_rep1 D_rpoB_MockLog_rep2 D_rpoB_Mockstd01_rep1 D_rpoB_Mockstd01_rep2 D_rpoB_Mockstd_rpoB_rep1 D_rpoB_Mockstd_rpoB_rep2 N_rpoB_Mock1 N_rpoB_Mock2 N_rpoB_Mock3 N_rpoB_Mock4 N_rpoB_Mock5M_rep1 N_rpoB_Mock5M_rep2 N_rpoB_Mock5 N_rpoB_MockLog01_rep1 N_rpoB_MockLog01_rep2 N_rpoB_MockLog_001 N_rpoB_MockLog_rep1 N_rpoB_MockLog_rep2 N_rpoB_Mockstd001_rep1 N_rpoB_Mockstd001_rep2 N_rpoB_Mockstd01_rep1 N_rpoB_Mockstd01_rep2 N_rpoB_Mockstd_rpoB_rep1 N_rpoB_Mockstd_rpoB_rep2 \
+		-o $RESULT -f png --outformat png
+mv $RESULT/taxonomic_ranks_per_target_and_per_sample.png $RESULT/${ANALYSIS}_${OBJECT}_taxonomic_ranks_per_target_and_per_sample.png 
+mv $RESULT/taxonomic_ranks_per_target.png $RESULT/${ANALYSIS}_${OBJECT}_taxonomic_ranks_per_target.png 
+mv $RESULT/taxonomic_ranks_per_target_and_per_sample_taxo_ranks_.tsv $RESULT/${ANALYSIS}_${OBJECT}_taxonomic_ranks_per_target_and_per_sample_taxo_ranks.tsv 
+
+```
