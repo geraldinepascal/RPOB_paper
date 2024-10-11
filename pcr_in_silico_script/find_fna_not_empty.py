@@ -1,6 +1,12 @@
 import re
 import argparse
 
+__author__ = 'Agoutin Gabryelle - UMR Genphyse'
+__copyright__ = 'Copyright (C) 2024 INRAE'
+__license__ = 'GNU General Public License'
+__version__ = '0.1'
+
+
 def find_non_empty_genomes(input_file):
     capture_assembly_acc = re.compile(r'([A-Z]{3}_\d+\.\d+)')
     with open(input_file, 'r') as file:
