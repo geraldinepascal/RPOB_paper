@@ -74,7 +74,7 @@ and then run the script_fetch.sh.
 
 NB: this can be a lengthy process.
 
-The perl version of FetchMGS is used here. There is now a python version, not used here. (https://github.com/motu-tool/fetchMGs)
+The perl version of FetchMGS is used here. There is now a python version, not used here. (https://github.com/motu-tool/fetchMGs.pl)
 
 ```bash=
 ./script/script_fetch.sh names_files.txt output_fetchMGS cds_genomic_seq/modified_fna/ protein_seq/modified_faa/
