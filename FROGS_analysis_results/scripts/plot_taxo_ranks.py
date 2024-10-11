@@ -168,7 +168,7 @@ def main():
     # Group by rank 
 
     df_rank = df.groupby(['Taxonomic rank', "region", "db", "name"
-                        ]).agg({"observation_sum":sum, 'abundance':sum,
+                        ]).agg({"observation_sum":"sum", 'abundance':"sum",
                                                     "observation_name":"count", }).reset_index()
 
                                         
@@ -218,8 +218,8 @@ def main():
 
             df.loc[filt_name, f'sample_sum'] = df.loc[filt_name, f'{sample}']
 
-            df_rank_by_sample = df.loc[filt_name].groupby(['Taxonomic rank', "region", 'name']).agg({f"sample_sum":sum, 
-                                                    f'abundance':sum,
+            df_rank_by_sample = df.loc[filt_name].groupby(['Taxonomic rank', "region", 'name']).agg({f"sample_sum":"sum", 
+                                                    f'abundance':"sum",
                                                     "observation_name":"count",}).reset_index()
             df_rank_by_sample['sample'] = str(sample)
             df_rank_by_sample_list.append(df_rank_by_sample)
@@ -227,9 +227,14 @@ def main():
         
     df_rank = pd.concat(df_rank_by_sample_list)
     
+    # Output tsv
+    table_output_name = os.path.join(outdir, "taxonomic_ranks_per_target_and_per_sample.tsv")
 
-        
-    df_rank = pd.concat(df_rank_by_sample_list)
+    logging.info(f'Writting ranks table in {table_output_name}')
+    
+    df_rank.to_csv(table_output_name,  sep='\t', index=False)#, columns=[])
+
+
     df_rank["n"] = df_rank["name"]
 
     fig = px.bar(df_rank, x="sample", y="abundance", color="Taxonomic rank", facet_row="n",
@@ -241,11 +246,29 @@ def main():
     fig.update_layout( # customize font and legend orientation & position
         legend={'traceorder':'reversed'}
     )
-    #fig.update_layout(
-    #    width=700,
-    #    height=600,)
 
     output_base_name = os.path.join(outdir, "taxonomic_ranks_per_target_and_per_sample")
+
+    for extension in output_formats:
+        logging.info(f'Writting {output_base_name}.{extension}')
+        if extension == "html":
+            fig.write_html(f"{output_base_name}.{extension}")
+        else:
+            fig.write_image(f"{output_base_name}.{extension}")
+
+
+    # Raw 
+    fig = px.bar(df_rank, x="sample", y="sample_sum", color="Taxonomic rank", facet_row="n",
+            category_orders={"rank_affi":ranks, "n":labels,  # "dataset":dataset_analysed, "region":regions_analysed,
+                            'Taxonomic rank':ranks + ["ident or cov < 99%"] },
+                            template="seaborn",
+            color_discrete_map=rank2color, )
+    
+    fig.update_layout( # customize font and legend orientation & position
+        legend={'traceorder':'reversed'}
+    )
+
+    output_base_name = os.path.join(outdir, "taxonomic_ranks_per_target_and_per_sample_raw_count")
 
     for extension in output_formats:
         logging.info(f'Writting {output_base_name}.{extension}')
