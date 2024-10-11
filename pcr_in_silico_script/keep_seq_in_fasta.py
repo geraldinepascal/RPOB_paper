@@ -1,6 +1,11 @@
 import argparse
 from Bio import SeqIO
 
+__author__ = 'Agoutin Gabryelle - UMR Genphyse'
+__copyright__ = 'Copyright (C) 2024 INRAE'
+__license__ = 'GNU General Public License'
+__version__ = '0.1'
+
 def filter_sequences(fasta_file, id_list_file, output_file):
     # Load sequence IDs from the file
     with open(id_list_file, 'r') as f:
