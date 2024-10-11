@@ -1,22 +1,11 @@
-#!/usr/bin/env python3
-
-"""
-Description
-
-:Example:
-python template.py -v
-"""
 
 # Metadata
-__author__ = 'Mainguy Jean - Plateforme biodebugrmatique Toulouse'
+__author__ = 'Mainguy Jean - Plateforme bioinformatique Toulouse'
 __copyright__ = 'Copyright (C) 2020 INRAE'
 __license__ = 'GNU General Public License'
-__version__ = '0.1'
-__email__ = 'support.biodebug.genotoul@inra.fr'
-__status__ = 'dev'
 
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter, FileType
+from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import logging
 import pandas as pd
 import plotly.express as px

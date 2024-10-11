@@ -1,24 +1,12 @@
-#!/usr/bin/env python3
-
-"""
-Description
-
-:Example:
-python template.py -v
-"""
-
 # Metadata
 __author__ = 'Mainguy Jean - Plateforme bioinformatique Toulouse'
 __copyright__ = 'Copyright (C) 2020 INRAE'
 __license__ = 'GNU General Public License'
-__version__ = '0.1'
-__email__ = 'support.bioinfo.genotoul@inra.fr'
-__status__ = 'dev'
 
 
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import logging
-import sys
+
 from frogs_analysis_fct import process_frogs_affiliation, get_corresponding_species_mock, clean_mock_sp_relation
 
 
