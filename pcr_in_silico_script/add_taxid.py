@@ -1,6 +1,11 @@
 import os
 import argparse
 
+__author__ = 'Agoutin Gabryelle - UMR Genphyse'
+__copyright__ = 'Copyright (C) 2024 INRAE'
+__license__ = 'GNU General Public License'
+__version__ = '0.1'
+
 def update_sequence_names(correspondence_path, parent_folder):
     # Load correspondences from the file into a dictionary
     correspondences = {}
