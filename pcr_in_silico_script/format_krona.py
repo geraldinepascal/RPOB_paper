@@ -1,5 +1,10 @@
 import argparse
 
+__author__ = 'Agoutin Gabryelle - UMR Genphyse'
+__copyright__ = 'Copyright (C) 2024 INRAE'
+__license__ = 'GNU General Public License'
+__version__ = '0.1'
+
 def process_taxonomy(input_file, output_file, use_true):
     # Open the input file for reading
     with open(input_file, 'r') as f_in:
