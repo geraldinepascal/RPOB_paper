@@ -1,4 +1,8 @@
 #!/bin/bash
+#__author__ = 'Agoutin Gabryelle - UMR Genphyse'
+#__copyright__ = 'Copyright (C) 2024 INRAE'
+#__license__ = 'GNU General Public License'
+#__version__ = '0.1'
 
 # Fonction pour afficher l'aide
 usage() {
