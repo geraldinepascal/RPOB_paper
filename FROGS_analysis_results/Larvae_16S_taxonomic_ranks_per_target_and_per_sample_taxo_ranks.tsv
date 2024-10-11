@@ -1,0 +1,103 @@
+Taxonomic rank	region	name	sample_sum	abundance	observation_name	sample	n
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	9.0	0.04568296025582458	1	DAK_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1070.0	5.431196385970256	34	DAK_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	8661.0	43.96223541952185	245	DAK_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	15.0	0.07613826709304096	6	DAK_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	9663.0	49.04827166133699	129	DAK_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	283.0	1.4364753058220394	42	DAK_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	DAK_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	987.0	4.30327868852459	34	DAK_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	14621.0	63.74694802929892	245	DAK_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1.0	0.004359958144401814	6	DAK_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	6449.0	28.117370073247297	129	DAK_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	878.0	3.8280432507847926	42	DAK_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	DAK_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	4887.0	33.58993745274589	34	DAK_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	6399.0	43.98240428895457	245	DAK_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	23.0	0.1580864664238092	6	DAK_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2700.0	18.557976493229777	129	DAK_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	540.0	3.711595298645955	42	DAK_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	DAK_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	946.0	3.3679863286812872	34	DAK_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	14922.0	53.12589005981202	245	DAK_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	18.0	0.06408430646539448	6	DAK_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	11717.0	41.715323269723726	129	DAK_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	485.0	1.7267160353175734	42	DAK_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	5.0	0.028167427187200722	1	SEDH_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	6303.0	35.50785871218523	34	SEDH_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	7316.0	41.214579460312095	245	SEDH_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	133.0	0.7492535631795392	6	SEDH_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	3930.0	22.13959776913977	129	SEDH_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	64.0	0.3605430679961692	42	SEDH_16S_3_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	93.0	0.5468015051740357	1	SEDH_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	349.0	2.051975540921919	34	SEDH_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	15068.0	88.59360301034806	245	SEDH_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	65.0	0.382173095014111	6	SEDH_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1341.0	7.884524929444967	129	SEDH_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	92.0	0.5409219190968955	42	SEDH_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	SEDH_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2105.0	14.828120597351367	34	SEDH_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	11124.0	78.36010143702453	245	SEDH_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1.0	0.0070442378134685825	6	SEDH_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	795.0	5.600169061707523	129	SEDH_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	171.0	1.2045646661031277	42	SEDH_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	SEDH_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	795.0	5.360393769806486	34	SEDH_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	10817.0	72.93506843773177	245	SEDH_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	137.0	0.9237408131616209	6	SEDH_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2942.0	19.836828265120356	129	SEDH_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	140.0	0.9439687141797586	42	SEDH_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	SL_16S_1_L1	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	4841.0	26.171811645131644	34	SL_16S_1_L1	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	11886.0	64.2590690382224	245	SL_16S_1_L1	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	24.0	0.12975077039519922	6	SL_16S_1_L1	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1740.0	9.406930853651943	129	SL_16S_1_L1	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	6.0	0.032437692598799805	42	SL_16S_1_L1	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	SL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1560.0	5.547258374226584	34	SL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	25439.0	90.45942678330132	245	SL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	6	SL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1113.0	3.9577554939193513	129	SL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	10.0	0.035559348552734515	42	SL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	SL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2590.0	11.197578901859057	34	SL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	16968.0	73.35927367055771	245	SL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	134.0	0.5793341980112409	6	SL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2889.0	12.490272373540856	129	SL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	549.0	2.3735408560311284	42	SL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	7.0	0.02490128419479919	1	SL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1143.0	4.066023976379354	34	SL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	21517.0	76.54299028849917	245	SL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	7.0	0.02490128419479919	6	SL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	5367.0	19.092170324783893	129	SL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	70.0	0.2490128419479919	42	SL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	21.0	0.09817671809256662	1	VEL_16S_1_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	11834.0	55.32491818606825	34	VEL_16S_1_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	6158.0	28.789153810191678	245	VEL_16S_1_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	166.0	0.7760635811126695	6	VEL_16S_1_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1984.0	9.27536231884058	129	VEL_16S_1_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1227.0	5.73632538569425	42	VEL_16S_1_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	VEL_16S_2_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	4354.0	19.862232562383102	34	VEL_16S_2_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	9023.0	41.16144336481	245	VEL_16S_2_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	63.0	0.2873956480087587	6	VEL_16S_2_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	6613.0	30.16741936955431	129	VEL_16S_2_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1868.0	8.52150905524383	42	VEL_16S_2_L3	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	VEL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2995.0	22.985418265541057	34	VEL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	7342.0	56.34689178818112	245	VEL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	52.0	0.3990790483499616	6	VEL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2402.0	18.434382194934766	129	VEL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	239.0	1.8342287029930928	42	VEL_16S_4_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	1.0	0.0021142543025075055	1	VEL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	175.0	0.3699945029388135	34	VEL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	155.0	0.32770941688866334	245	VEL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	6	VEL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	46833.0	99.01687174933402	129	VEL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	134.0	0.28331007653600576	42	VEL_16S_5_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Domain	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	0.0	0.0	1	VEL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	25217.0	89.90338336482584	34	VEL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	2377.0	8.47445541730543	245	VEL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	6.0	0.021391136938928305	6	VEL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	433.0	1.5437270490926593	129	VEL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv	16.0	0.05704303183714215	42	VEL_16S_6_L5	/home/gpascal/work/RPOB/RESULTS97perc/Larvae_16S_affi_tables_merged.tsv

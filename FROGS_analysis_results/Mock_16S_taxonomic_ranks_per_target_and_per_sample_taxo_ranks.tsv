@@ -1,0 +1,37 @@
+Taxonomic rank	region	name	sample_sum	abundance	observation_name	sample	n
+Class	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	0.0	0.0	20	16S_Mock5M_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	182.0	2.754237288135593	25	16S_Mock5M_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	5613.0	84.94249394673123	261	16S_Mock5M_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	0.0	0.0	38	16S_Mock5M_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	169.0	2.557506053268765	113	16S_Mock5M_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	644.0	9.745762711864407	115	16S_Mock5M_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Class	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	0.0	0.0	20	16S_Mock5M_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	239.0	3.0465264499681326	25	16S_Mock5M_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	6731.0	85.79987253027406	261	16S_Mock5M_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	0.0	0.0	38	16S_Mock5M_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	232.0	2.95729764181007	113	16S_Mock5M_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	643.0	8.196303377947737	115	16S_Mock5M_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Class	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	20.0	0.030037697310124206	20	16S_MockLog_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	1.0	0.0015018848655062103	25	16S_MockLog_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	65343.0	98.1376627667723	261	16S_MockLog_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	0.0	0.0	38	16S_MockLog_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	1013.0	1.521409368757791	113	16S_MockLog_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	206.0	0.30938828229427934	115	16S_MockLog_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Class	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	7339.0	18.671449651452704	20	16S_Mockstd_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	526.0	1.3382180837531166	25	16S_Mockstd_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	15760.0	40.095659695720755	261	16S_Mockstd_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	2293.0	5.833714954459879	38	16S_Mockstd_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	11222.0	28.550348547295577	113	16S_Mockstd_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	2166.0	5.510609067317967	115	16S_Mockstd_rep1	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Class	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	1996.0	14.691594288237892	20	16S_Mockstd_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	261.0	1.9210952451052554	25	16S_Mockstd_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	5068.0	37.30310613867216	261	16S_Mockstd_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	691.0	5.0861180627116145	38	16S_Mockstd_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	4482.0	32.98984248491094	113	16S_Mockstd_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	1088.0	8.008243780362138	115	16S_Mockstd_rep2	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Class	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	2445.0	15.585160632330442	20	16S_Mockstd_rep3	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Family	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	234.0	1.4915859255481898	25	16S_Mockstd_rep3	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Genus	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	6375.0	40.63615502294748	261	16S_Mockstd_rep3	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Order	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	824.0	5.252422233554309	38	16S_Mockstd_rep3	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+Species	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	4716.0	30.06119326874044	113	16S_Mockstd_rep3	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
+weak affiliation	16S	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv	1094.0	6.973482916879143	115	16S_Mockstd_rep3	/home/gpascal/work/RPOB/RESULTS97perc/Mock_16S_affi_tables_merged.tsv
