@@ -1,5 +1,10 @@
 import argparse
 
+__author__ = 'Agoutin Gabryelle - UMR Genphyse'
+__copyright__ = 'Copyright (C) 2024 INRAE'
+__license__ = 'GNU General Public License'
+__version__ = '0.1'
+
 def format_fasta(input_file, output_file):
     """
     Format FASTA file identifiers to limit the total length of line_number_prefix to 19 characters and add number of sequence.
