@@ -1,4 +1,11 @@
 #!/bin/bash
+
+#__author__ = 'Agoutin Gabryelle - UMR Genphyse'
+#__copyright__ = 'Copyright (C) 2024 INRAE'
+#__license__ = 'GNU General Public License'
+#__version__ = '0.1'
+
+
 usage() {
     echo "Usage: $0 <input_directory> <output_directory>"
     echo "  <input_directory>  : Directory containing the .faa.gz files"
